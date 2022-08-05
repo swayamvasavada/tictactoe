@@ -32,6 +32,8 @@ const gameArea = document.getElementById('active-game');
 const gameBoardElement = document.getElementById('game-board');
 const activePlayerName = document.getElementById('active-player-name');
 const gameOverElement = document.getElementById('game-over');
+const resultElement = document.getElementById('result');
+const restartGamePara = document.getElementById('restart-game');
 
 const editPlayer1BtnElement = document.getElementById('edit-player-1-btn');
 const editPlayer2BtnElement = document.getElementById('edit-player-2-btn');
