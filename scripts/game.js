@@ -120,6 +120,6 @@ function endGame(winnerId) {
         resultElement.firstElementChild.textContent = winnerName;
     }
     else {
-        gameOverElement.firstElementChild.textContent = 'it\'s a draw!'
+        resultElement.textContent = 'It\'s a draw!'
     }
 }
